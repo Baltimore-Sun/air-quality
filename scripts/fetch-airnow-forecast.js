@@ -3,14 +3,18 @@
 // one row per city, one column per date, cell = combined PM2.5/O3 category.
 //
 // Cell format rules:
-//   - Each cell shows a single category -- the more severe of PM2.5 vs O3
-//     when both are forecast (e.g. PM2.5 "Moderate" + O3 "Unhealthy for
-//     Sensitive Groups" -> cell shows "Unhealthy for Sensitive Groups")
+//   - For each pollutant (PM2.5, O3) independently, find the MOST FREQUENTLY
+//     OCCURRING category across all ZIP entries for that city (the "modal"
+//     rating for that pollutant across the area's monitors/ZIPs). Ties are
+//     broken by taking the more severe of the tied categories.
+//   - The cell then shows whichever of those two modal ratings (PM2.5's vs
+//     O3's) is more severe.
 //   - Only one pollutant forecast (e.g. no ozone season): just that category
 //   - Neither forecast: "No forecast available"
-//   - If a city has more than one ZIP entry in LOCATIONS, the more severe
-//     category wins for each pollutant before the PM2.5-vs-O3 comparison
-//     above is applied.
+//   - With a single ZIP per city (the current default), the "most frequent"
+//     step is trivial -- one value has a count of 1, so it's just that
+//     category. This logic is written to scale cleanly once you add more
+//     ZIPs per city.
 //
 // AirNow's forecast endpoint takes one date per request and returns whatever
 // forecast records exist for that date at that location -- there's no single
@@ -32,7 +36,8 @@ const OUTPUT_PATH = path.join(__dirname, "..", "data", "maryland-forecast.csv");
 // Representative ZIP code per city. AirNow forecasts by monitoring area, not
 // exact address, so any ZIP within the city works. Add more than one entry
 // with the same `city` value if you want to cover multiple ZIPs for one
-// city -- the script will take the more severe category per pollutant.
+// city -- the script will use the most frequently occurring category per
+// pollutant across those ZIPs (see header comment).
 const LOCATIONS = [
   { city: "Baltimore", zip: "21201" },
   { city: "Annapolis", zip: "21401" },
@@ -60,7 +65,9 @@ async function main() {
 
   const dates = [0, 1].map((offset) => formatDate(addDays(new Date(), offset)));
 
-  // grouped[city][date][pollutant] = { category, severity }
+  // grouped[city][date][pollutant] = array of category names, one per ZIP/
+  // record seen -- kept as a raw list so we can compute the mode afterward
+  // rather than reducing to a single value while fetching.
   const grouped = {};
 
   for (const location of LOCATIONS) {
@@ -76,16 +83,12 @@ async function main() {
       for (const r of records) {
         const pollutant = normalizeParameter(r.ParameterName);
         const category = r.Category?.Name;
-        if (!pollutant || !category) continue;
-
-        const severity = CATEGORY_SEVERITY[category] ?? 0;
+        if (!pollutant || !category || !(category in CATEGORY_SEVERITY)) continue;
 
         grouped[location.city] ??= {};
         grouped[location.city][dateStr] ??= {};
-        const existing = grouped[location.city][dateStr][pollutant];
-        if (!existing || severity > existing.severity) {
-          grouped[location.city][dateStr][pollutant] = { category, severity };
-        }
+        grouped[location.city][dateStr][pollutant] ??= [];
+        grouped[location.city][dateStr][pollutant].push(category);
       }
     }
   }
@@ -121,14 +124,40 @@ function normalizeParameter(name) {
 
 function formatCell(cityDates) {
   if (!cityDates) return "No forecast available";
-  const pm = cityDates["PM2.5"];
-  const o3 = cityDates["O3"];
+  const pm = modalCategory(cityDates["PM2.5"]);
+  const o3 = modalCategory(cityDates["O3"]);
 
   if (!pm && !o3) return "No forecast available";
   if (pm && o3) {
     return pm.severity >= o3.severity ? pm.category : o3.category;
   }
   return (pm || o3).category;
+}
+
+// Given a list of category names (one per ZIP/record for a single pollutant),
+// return the most frequently occurring one as { category, severity }. Ties
+// are broken by taking the more severe of the tied categories -- e.g. two
+// ZIPs "Moderate" and two ZIPs "Unhealthy" ties 2-2, so "Unhealthy" wins.
+function modalCategory(categories) {
+  if (!categories || categories.length === 0) return null;
+
+  const counts = new Map();
+  for (const category of categories) {
+    counts.set(category, (counts.get(category) ?? 0) + 1);
+  }
+
+  let best = null;
+  for (const [category, count] of counts) {
+    const severity = CATEGORY_SEVERITY[category] ?? 0;
+    if (
+      !best ||
+      count > best.count ||
+      (count === best.count && severity > best.severity)
+    ) {
+      best = { category, count, severity };
+    }
+  }
+  return { category: best.category, severity: best.severity };
 }
 
 function addDays(date, days) {

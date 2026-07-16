@@ -3,13 +3,14 @@
 // one row per city, one column per date, cell = combined PM2.5/O3 category.
 //
 // Cell format rules:
-//   - Both PM2.5 and O3 forecast, different categories:
-//       "Moderate (PM 2.5)/Unhealthy for Sensitive Groups (O3)"
-//   - Both forecast, same category: just the category name, e.g. "Moderate"
+//   - Each cell shows a single category -- the more severe of PM2.5 vs O3
+//     when both are forecast (e.g. PM2.5 "Moderate" + O3 "Unhealthy for
+//     Sensitive Groups" -> cell shows "Unhealthy for Sensitive Groups")
 //   - Only one pollutant forecast (e.g. no ozone season): just that category
 //   - Neither forecast: "No forecast available"
 //   - If a city has more than one ZIP entry in LOCATIONS, the more severe
-//     category wins for each pollutant.
+//     category wins for each pollutant before the PM2.5-vs-O3 comparison
+//     above is applied.
 //
 // AirNow's forecast endpoint takes one date per request and returns whatever
 // forecast records exist for that date at that location -- there's no single
@@ -125,8 +126,7 @@ function formatCell(cityDates) {
 
   if (!pm && !o3) return "No forecast available";
   if (pm && o3) {
-    if (pm.category === o3.category) return pm.category;
-    return `${pm.category} (PM 2.5)/${o3.category} (O3)`;
+    return pm.severity >= o3.severity ? pm.category : o3.category;
   }
   return (pm || o3).category;
 }

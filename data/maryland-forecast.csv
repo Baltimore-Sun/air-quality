@@ -3,5 +3,5 @@ Baltimore,Unhealthy,Unhealthy
 Annapolis,Unhealthy,Unhealthy
 Washington,Unhealthy for Sensitive Groups,Unhealthy for Sensitive Groups
 Elkton,Unhealthy,Unhealthy
-Salisbury,Unhealthy,Unhealthy
-Cumberland,Unhealthy,Unhealthy
+Salisbury,Unhealthy for Sensitive Groups,Unhealthy
+Cumberland,Moderate,Unhealthy

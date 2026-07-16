@@ -1,0 +1,39 @@
+name: Update Maryland AQI forecast
+
+on:
+  schedule:
+    # AirNow forecasts are typically issued/updated once in the early
+    # afternoon Eastern. Run twice a day (10am and 4pm UTC = ~6am/12pm ET) to
+    # catch both the overnight rollover (new "today") and the afternoon
+    # forecast update, without hammering the API hourly for data that only
+    # changes a couple times a day.
+    - cron: "0 10,16 * * *"
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write # needed so the workflow can commit the updated file
+
+jobs:
+  update-forecast:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch AirNow forecast for Maryland cities
+        env:
+          AIRNOW_API_KEY: ${{ secrets.AIRNOW_API_KEY }}
+        run: node scripts/fetch-airnow-forecast.js
+
+      - name: Commit updated CSV if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/maryland-forecast.csv
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update Maryland AQI forecast"
+          git push

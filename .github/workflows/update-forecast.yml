@@ -7,7 +7,7 @@ on:
     # catch both the overnight rollover (new "today") and the afternoon
     # forecast update, without hammering the API hourly for data that only
     # changes a couple times a day.
-    - cron: "0 10,16 * * *"
+    - cron: ""
   workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
 
 permissions:

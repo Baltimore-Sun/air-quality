@@ -1,7 +1,7 @@
 City,July 16,July 17
-Baltimore,Unhealthy (PM 2.5)/Unhealthy for Sensitive Groups (O3),Unhealthy (PM 2.5)/Unhealthy for Sensitive Groups (O3)
-Annapolis,Unhealthy (PM 2.5)/Unhealthy for Sensitive Groups (O3),Unhealthy (PM 2.5)/Unhealthy for Sensitive Groups (O3)
+Baltimore,Unhealthy,Unhealthy
+Annapolis,Unhealthy,Unhealthy
 Washington,Unhealthy for Sensitive Groups,Unhealthy for Sensitive Groups
-Elkton,Unhealthy (PM 2.5)/Unhealthy for Sensitive Groups (O3),Unhealthy (PM 2.5)/Unhealthy for Sensitive Groups (O3)
-Salisbury,Unhealthy (PM 2.5)/Unhealthy for Sensitive Groups (O3),Unhealthy (PM 2.5)/Moderate (O3)
-Cumberland,Unhealthy (PM 2.5)/Moderate (O3),Unhealthy (PM 2.5)/Moderate (O3)
+Elkton,Unhealthy,Unhealthy
+Salisbury,Unhealthy,Unhealthy
+Cumberland,Unhealthy,Unhealthy

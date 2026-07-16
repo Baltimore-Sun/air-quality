@@ -1,0 +1,2286 @@
+{
+  "type": "FeatureCollection",
+  "generated_at": "2026-07-16T02:15:51.552Z",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.011902,
+          39.705799
+        ]
+      },
+      "properties": {
+        "site_name": "Piney Run",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "PM2.5",
+        "aqi": 51,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "240230002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.011902,
+          39.705799
+        ]
+      },
+      "properties": {
+        "site_name": "Piney Run",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 40,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240230002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.011902,
+          39.705799
+        ]
+      },
+      "properties": {
+        "site_name": "Piney Run",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "NO2",
+        "aqi": 5,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240230002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.011902,
+          39.705799
+        ]
+      },
+      "properties": {
+        "site_name": "Piney Run",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "SO2",
+        "aqi": 0,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240230002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.81952,
+          38.47753
+        ]
+      },
+      "properties": {
+        "site_name": "Rockingham",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "PM2.5",
+        "aqi": 58,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "511650003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.81952,
+          38.47753
+        ]
+      },
+      "properties": {
+        "site_name": "Rockingham",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "PM10",
+        "aqi": 25,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "511650003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.81952,
+          38.47753
+        ]
+      },
+      "properties": {
+        "site_name": "Rockingham",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "OZONE",
+        "aqi": 23,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "511650003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.81952,
+          38.47753
+        ]
+      },
+      "properties": {
+        "site_name": "Rockingham",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "NO2",
+        "aqi": 9,
+        "category": null,
+        "utc_observed": "2026-07-16T00:00",
+        "full_aqsid": "511650003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.81952,
+          38.47753
+        ]
+      },
+      "properties": {
+        "site_name": "Rockingham",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "SO2",
+        "aqi": 0,
+        "category": null,
+        "utc_observed": "2026-07-16T00:00",
+        "full_aqsid": "511650003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.50397,
+          38.07657
+        ]
+      },
+      "properties": {
+        "site_name": "Albemarle HS",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "PM2.5",
+        "aqi": 59,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "510030001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.50397,
+          38.07657
+        ]
+      },
+      "properties": {
+        "site_name": "Albemarle HS",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "OZONE",
+        "aqi": 31,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "510030001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4347,
+          38.5231
+        ]
+      },
+      "properties": {
+        "site_name": "Shenandoah NP",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "PM2.5",
+        "aqi": 54,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "511130003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4347,
+          38.5231
+        ]
+      },
+      "properties": {
+        "site_name": "Shenandoah NP",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "OZONE",
+        "aqi": 39,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "511130003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.08157,
+          39.28102
+        ]
+      },
+      "properties": {
+        "site_name": "REST - LESTER BUILDING SYSTEMS",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "PM2.5",
+        "aqi": 47,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "510690010"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.08157,
+          39.28102
+        ]
+      },
+      "properties": {
+        "site_name": "REST - LESTER BUILDING SYSTEMS",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "OZONE",
+        "aqi": 35,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "510690010"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.08157,
+          39.28102
+        ]
+      },
+      "properties": {
+        "site_name": "REST - LESTER BUILDING SYSTEMS",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "PM10",
+        "aqi": 16,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "510690010"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.958298,
+          39.465599
+        ]
+      },
+      "properties": {
+        "site_name": "MARTINSBURG",
+        "agency": "West Virginia Division of Air Quality",
+        "parameter": "OZONE",
+        "aqi": 35,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "540030003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.76772,
+          38.47367
+        ]
+      },
+      "properties": {
+        "site_name": "SUMERDUCK",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "OZONE",
+        "aqi": 19,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "510610002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.721901,
+          39.565601
+        ]
+      },
+      "properties": {
+        "site_name": "Hagerstown",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 38,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240430009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.721901,
+          39.565601
+        ]
+      },
+      "properties": {
+        "site_name": "Hagerstown",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "PM2.5",
+        "aqi": 40,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "240430009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.63462,
+          38.85287
+        ]
+      },
+      "properties": {
+        "site_name": "JAMES S. LONG PARK",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "OZONE",
+        "aqi": 30,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "511530009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.63462,
+          38.85287
+        ]
+      },
+      "properties": {
+        "site_name": "JAMES S. LONG PARK",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "NO2",
+        "aqi": 1,
+        "category": null,
+        "utc_observed": "2026-07-16T00:00",
+        "full_aqsid": "511530009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.48925,
+          39.02473
+        ]
+      },
+      "properties": {
+        "site_name": "ASHBURN",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "PM2.5",
+        "aqi": 53,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "511071005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.48925,
+          39.02473
+        ]
+      },
+      "properties": {
+        "site_name": "ASHBURN",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "OZONE",
+        "aqi": 32,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "511071005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.48925,
+          39.02473
+        ]
+      },
+      "properties": {
+        "site_name": "ASHBURN",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "PM10",
+        "aqi": 18,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "511071005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.48925,
+          39.02473
+        ]
+      },
+      "properties": {
+        "site_name": "ASHBURN",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "NO2",
+        "aqi": 1,
+        "category": null,
+        "utc_observed": "2026-07-16T00:00",
+        "full_aqsid": "511071005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.37742,
+          38.20087
+        ]
+      },
+      "properties": {
+        "site_name": "CORBIN",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "OZONE",
+        "aqi": 25,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "510330001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.37519,
+          39.42276
+        ]
+      },
+      "properties": {
+        "site_name": "Frederick Airport",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 33,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240210037"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3704,
+          38.48123
+        ]
+      },
+      "properties": {
+        "site_name": "WIDEWATER",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "OZONE",
+        "aqi": 29,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "511790001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.18347,
+          38.7684
+        ]
+      },
+      "properties": {
+        "site_name": "Northern VA Near Road",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "PM2.5",
+        "aqi": 55,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "840510590031"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.106903,
+          39.114399
+        ]
+      },
+      "properties": {
+        "site_name": "Rockville",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "PM2.5",
+        "aqi": 53,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "240313001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.106903,
+          39.114399
+        ]
+      },
+      "properties": {
+        "site_name": "Rockville",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 31,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240313001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.10468,
+          38.77335
+        ]
+      },
+      "properties": {
+        "site_name": "FRANCONIA",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "PM2.5",
+        "aqi": 53,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "510590030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.10468,
+          38.77335
+        ]
+      },
+      "properties": {
+        "site_name": "FRANCONIA",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "OZONE",
+        "aqi": 35,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "510590030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.10468,
+          38.77335
+        ]
+      },
+      "properties": {
+        "site_name": "FRANCONIA",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "PM10",
+        "aqi": 17,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "510590030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.10468,
+          38.77335
+        ]
+      },
+      "properties": {
+        "site_name": "FRANCONIA",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "SO2",
+        "aqi": 1,
+        "category": null,
+        "utc_observed": "2026-07-16T00:00",
+        "full_aqsid": "510590030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.05922,
+          38.8577
+        ]
+      },
+      "properties": {
+        "site_name": "AURORA HILLS",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "OZONE",
+        "aqi": 34,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "510130020"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.05922,
+          38.8577
+        ]
+      },
+      "properties": {
+        "site_name": "AURORA HILLS",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "NO2",
+        "aqi": 3,
+        "category": null,
+        "utc_observed": "2026-07-16T00:00",
+        "full_aqsid": "510130020"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.05922,
+          38.8577
+        ]
+      },
+      "properties": {
+        "site_name": "AURORA HILLS",
+        "agency": "Virginia Dept. of Environmental Quality",
+        "parameter": "CO",
+        "aqi": -999,
+        "category": null,
+        "utc_observed": "2026-07-16T00:00",
+        "full_aqsid": "510130020"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.041702,
+          39.444199
+        ]
+      },
+      "properties": {
+        "site_name": "South Carroll",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 33,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240130001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.016715,
+          38.970101
+        ]
+      },
+      "properties": {
+        "site_name": "TakomaRec",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "OZONE",
+        "aqi": 39,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "110010050"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.016715,
+          38.970101
+        ]
+      },
+      "properties": {
+        "site_name": "TakomaRec",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "NO2",
+        "aqi": 3,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "110010050"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.013176,
+          38.921848
+        ]
+      },
+      "properties": {
+        "site_name": "McMillan Reservoir",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "PM2.5",
+        "aqi": 56,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "110010043"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.013176,
+          38.921848
+        ]
+      },
+      "properties": {
+        "site_name": "McMillan Reservoir",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "OZONE",
+        "aqi": 34,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "110010043"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.013176,
+          38.921848
+        ]
+      },
+      "properties": {
+        "site_name": "McMillan Reservoir",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "NO2",
+        "aqi": 6,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "110010043"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.013176,
+          38.921848
+        ]
+      },
+      "properties": {
+        "site_name": "McMillan Reservoir",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "CO",
+        "aqi": -999,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "110010043"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.012816,
+          38.875161
+        ]
+      },
+      "properties": {
+        "site_name": "King Greenleaf Rec Center",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "PM2.5",
+        "aqi": 55,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "840110010053"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.01039,
+          38.81853
+        ]
+      },
+      "properties": {
+        "site_name": "Bald Eagle",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "PM2.5",
+        "aqi": 53,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "840110010055"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.01039,
+          38.81853
+        ]
+      },
+      "properties": {
+        "site_name": "Bald Eagle",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "OZONE",
+        "aqi": 34,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "840110010055"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.958089,
+          38.895683
+        ]
+      },
+      "properties": {
+        "site_name": "RIVER_Terrace",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "OZONE",
+        "aqi": 39,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "110010041"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.958089,
+          38.895683
+        ]
+      },
+      "properties": {
+        "site_name": "RIVER_Terrace",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "PM2.5",
+        "aqi": 43,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "110010041"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.958089,
+          38.895683
+        ]
+      },
+      "properties": {
+        "site_name": "RIVER_Terrace",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "NO2",
+        "aqi": 6,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "110010041"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.953427,
+          38.894749
+        ]
+      },
+      "properties": {
+        "site_name": "DCNearRoad",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "PM2.5",
+        "aqi": 58,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "110010051"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.953427,
+          38.894749
+        ]
+      },
+      "properties": {
+        "site_name": "DCNearRoad",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "NO2",
+        "aqi": 9,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "110010051"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.953427,
+          38.894749
+        ]
+      },
+      "properties": {
+        "site_name": "DCNearRoad",
+        "agency": "District of Columbia - Department of Energy and Environment",
+        "parameter": "CO",
+        "aqi": -999,
+        "category": null,
+        "utc_observed": "2026-07-16T00:00",
+        "full_aqsid": "110010051"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.878304,
+          39.055302
+        ]
+      },
+      "properties": {
+        "site_name": "HU-Beltsville",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "PM2.5",
+        "aqi": 63,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "240330030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.878304,
+          39.055302
+        ]
+      },
+      "properties": {
+        "site_name": "HU-Beltsville",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 26,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240330030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.878304,
+          39.055302
+        ]
+      },
+      "properties": {
+        "site_name": "HU-Beltsville",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "NO2",
+        "aqi": 5,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240330030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.878304,
+          39.055302
+        ]
+      },
+      "properties": {
+        "site_name": "HU-Beltsville",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "SO2",
+        "aqi": 0,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240330030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.878304,
+          39.055302
+        ]
+      },
+      "properties": {
+        "site_name": "HU-Beltsville",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "CO",
+        "aqi": -999,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240330030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.846192,
+          39.143197
+        ]
+      },
+      "properties": {
+        "site_name": "Howard County Near Road",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "PM2.5",
+        "aqi": 52,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "240270006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.846192,
+          39.143197
+        ]
+      },
+      "properties": {
+        "site_name": "Howard County Near Road",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "CO",
+        "aqi": -999,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240270006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8172,
+          39.0284
+        ]
+      },
+      "properties": {
+        "site_name": "Beltsville",
+        "agency": "EPA Office of Atmospheric Protection",
+        "parameter": "OZONE",
+        "aqi": 33,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240339991"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.811897,
+          38.5042
+        ]
+      },
+      "properties": {
+        "site_name": "Southern Maryland",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 29,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240170010"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.746814,
+          39.371679
+        ]
+      },
+      "properties": {
+        "site_name": "Baltimore County Near Road",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "NO2",
+        "aqi": 23,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240050009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.744186,
+          38.812069
+        ]
+      },
+      "properties": {
+        "site_name": "PG Equestrian Center",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 29,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240338003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.63609,
+          39.21771
+        ]
+      },
+      "properties": {
+        "site_name": "Pumphrey",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 36,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "840240031004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.631599,
+          39.462002
+        ]
+      },
+      "properties": {
+        "site_name": "Padonia",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 41,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240051007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.631599,
+          39.462002
+        ]
+      },
+      "properties": {
+        "site_name": "Padonia",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "PM2.5",
+        "aqi": 45,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "240051007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.617194,
+          38.536722
+        ]
+      },
+      "properties": {
+        "site_name": "Calvert",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 30,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240090011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.58905,
+          39.33746
+        ]
+      },
+      "properties": {
+        "site_name": "Lake Montebello",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "PM2.5",
+        "aqi": 64,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "840245105253"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.58905,
+          39.33746
+        ]
+      },
+      "properties": {
+        "site_name": "Lake Montebello",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 44,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "840245105253"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.58905,
+          39.33746
+        ]
+      },
+      "properties": {
+        "site_name": "Lake Montebello",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "NO2",
+        "aqi": 2,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "840245105253"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.474444,
+          39.310833
+        ]
+      },
+      "properties": {
+        "site_name": "Essex",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 32,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240053001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.474444,
+          39.310833
+        ]
+      },
+      "properties": {
+        "site_name": "Essex",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "NO2",
+        "aqi": 11,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240053001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.474444,
+          39.310833
+        ]
+      },
+      "properties": {
+        "site_name": "Essex",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "SO2",
+        "aqi": 1,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240053001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4619,
+          39.8608
+        ]
+      },
+      "properties": {
+        "site_name": "York DW",
+        "agency": "Pennsylvania Dept. of Environmental Protection",
+        "parameter": "OZONE",
+        "aqi": 44,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "421330011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2967,
+          39.41
+        ]
+      },
+      "properties": {
+        "site_name": "Edgewood",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "PM2.5",
+        "aqi": 52,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "240251001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2967,
+          39.41
+        ]
+      },
+      "properties": {
+        "site_name": "Edgewood",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 36,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240251001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.203903,
+          39.563301
+        ]
+      },
+      "properties": {
+        "site_name": "Aldino",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 46,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240259001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.1408,
+          38.5876
+        ]
+      },
+      "properties": {
+        "site_name": "Horn Point",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "PM2.5",
+        "aqi": 52,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "240190004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.1408,
+          38.5876
+        ]
+      },
+      "properties": {
+        "site_name": "Horn Point",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 38,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240190004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.1114,
+          38.445
+        ]
+      },
+      "properties": {
+        "site_name": "Blackwater NWR",
+        "agency": "EPA Office of Atmospheric Protection",
+        "parameter": "OZONE",
+        "aqi": 44,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240199991"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.860001,
+          39.701099
+        ]
+      },
+      "properties": {
+        "site_name": "Fair Hill",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "PM2.5",
+        "aqi": 52,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "240150003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.860001,
+          39.701099
+        ]
+      },
+      "properties": {
+        "site_name": "Fair Hill",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 42,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240150003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.797203,
+          39.305199
+        ]
+      },
+      "properties": {
+        "site_name": "Millington",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "PM2.5",
+        "aqi": 57,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "240290002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.797203,
+          39.305199
+        ]
+      },
+      "properties": {
+        "site_name": "Millington",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "OZONE",
+        "aqi": 42,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "240290002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.7678,
+          39.8344
+        ]
+      },
+      "properties": {
+        "site_name": "New Garden",
+        "agency": "Pennsylvania Dept. of Environmental Protection",
+        "parameter": "OZONE",
+        "aqi": 50,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "420290100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.7678,
+          39.8344
+        ]
+      },
+      "properties": {
+        "site_name": "New Garden",
+        "agency": "Pennsylvania Dept. of Environmental Protection",
+        "parameter": "PM2.5",
+        "aqi": 56,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "420290100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.761299,
+          39.691962
+        ]
+      },
+      "properties": {
+        "site_name": "Newark",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "PM2.5",
+        "aqi": 72,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "840100031012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.732,
+          39.5513
+        ]
+      },
+      "properties": {
+        "site_name": "LUMS 2",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "PM2.5",
+        "aqi": 56,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "100031007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.732,
+          39.5513
+        ]
+      },
+      "properties": {
+        "site_name": "LUMS 2",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "OZONE",
+        "aqi": 32,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "100031007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.732,
+          39.5513
+        ]
+      },
+      "properties": {
+        "site_name": "LUMS 2",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "SO2",
+        "aqi": 0,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "100031007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.701489,
+          38.176541
+        ]
+      },
+      "properties": {
+        "site_name": "Princess Anne",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "PM2.5",
+        "aqi": 54,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "840240396431"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.701489,
+          38.176541
+        ]
+      },
+      "properties": {
+        "site_name": "Princess Anne",
+        "agency": "Maryland Department of the Environment",
+        "parameter": "PM10",
+        "aqi": 12,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "840240396431"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6106,
+          38.6539
+        ]
+      },
+      "properties": {
+        "site_name": "SEAFORD",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "PM2.5",
+        "aqi": 53,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "100051002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6106,
+          38.6539
+        ]
+      },
+      "properties": {
+        "site_name": "SEAFORD",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "OZONE",
+        "aqi": 44,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "100051002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6036,
+          39.57768
+        ]
+      },
+      "properties": {
+        "site_name": "Rte 9 Del. City",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "PM2.5",
+        "aqi": 57,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "100031008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6036,
+          39.57768
+        ]
+      },
+      "properties": {
+        "site_name": "Rte 9 Del. City",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "SO2",
+        "aqi": 0,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "100031008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.563889,
+          39.817222
+        ]
+      },
+      "properties": {
+        "site_name": "BCSP",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "OZONE",
+        "aqi": 35,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "100031010"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.558056,
+          39.739444
+        ]
+      },
+      "properties": {
+        "site_name": "MLK",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "OZONE",
+        "aqi": 51,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "100032004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.558056,
+          39.739444
+        ]
+      },
+      "properties": {
+        "site_name": "MLK",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "PM2.5",
+        "aqi": 55,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "100032004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.558056,
+          39.739444
+        ]
+      },
+      "properties": {
+        "site_name": "MLK",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "PM10",
+        "aqi": 20,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "100032004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.558056,
+          39.739444
+        ]
+      },
+      "properties": {
+        "site_name": "MLK",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "SO2",
+        "aqi": 0,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "100032004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5568,
+          38.986672
+        ]
+      },
+      "properties": {
+        "site_name": "KILLENS",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "OZONE",
+        "aqi": 49,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "100010002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5568,
+          38.986672
+        ]
+      },
+      "properties": {
+        "site_name": "KILLENS",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "PM2.5",
+        "aqi": 64,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "100010002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.518056,
+          39.155
+        ]
+      },
+      "properties": {
+        "site_name": "Dover",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "PM2.5",
+        "aqi": 66,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "840100010003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.496389,
+          39.773889
+        ]
+      },
+      "properties": {
+        "site_name": "BELLFNT2",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "OZONE",
+        "aqi": 51,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "100031013"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.496389,
+          39.773889
+        ]
+      },
+      "properties": {
+        "site_name": "BELLFNT2",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "SO2",
+        "aqi": 0,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "100031013"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4919,
+          39.7611
+        ]
+      },
+      "properties": {
+        "site_name": "RIVER ROAD PARK; BELLEFONTE",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "PM2.5",
+        "aqi": 68,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "100031003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.413973,
+          39.818715
+        ]
+      },
+      "properties": {
+        "site_name": "Marcus Hook",
+        "agency": "Pennsylvania Dept. of Environmental Protection",
+        "parameter": "PM2.5",
+        "aqi": 62,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "420450109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3725,
+          39.8356
+        ]
+      },
+      "properties": {
+        "site_name": "Chester",
+        "agency": "Pennsylvania Dept. of Environmental Protection",
+        "parameter": "PM2.5",
+        "aqi": 88,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "420450002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3725,
+          39.8356
+        ]
+      },
+      "properties": {
+        "site_name": "Chester",
+        "agency": "Pennsylvania Dept. of Environmental Protection",
+        "parameter": "OZONE",
+        "aqi": 44,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "420450002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.21212,
+          39.800339
+        ]
+      },
+      "properties": {
+        "site_name": "Clarksboro",
+        "agency": "New Jersey Dept. of Environmental Protection",
+        "parameter": "PM2.5",
+        "aqi": 64,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "340150002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.21212,
+          39.800339
+        ]
+      },
+      "properties": {
+        "site_name": "Clarksboro",
+        "agency": "New Jersey Dept. of Environmental Protection",
+        "parameter": "OZONE",
+        "aqi": 40,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "340150002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16323,
+          38.7791
+        ]
+      },
+      "properties": {
+        "site_name": "LEWES",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "OZONE",
+        "aqi": 54,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "100051003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16323,
+          38.7791
+        ]
+      },
+      "properties": {
+        "site_name": "LEWES",
+        "agency": "Delaware Dept. of Natural Resources and Environment",
+        "parameter": "SO2",
+        "aqi": 0,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "100051003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0252,
+          39.422272
+        ]
+      },
+      "properties": {
+        "site_name": "Millville",
+        "agency": "New Jersey Dept. of Environmental Protection",
+        "parameter": "OZONE",
+        "aqi": 77,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "340110007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0252,
+          39.422272
+        ]
+      },
+      "properties": {
+        "site_name": "Millville",
+        "agency": "New Jersey Dept. of Environmental Protection",
+        "parameter": "PM2.5",
+        "aqi": 56,
+        "category": null,
+        "utc_observed": "2026-07-16T02:00",
+        "full_aqsid": "340110007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0252,
+          39.422272
+        ]
+      },
+      "properties": {
+        "site_name": "Millville",
+        "agency": "New Jersey Dept. of Environmental Protection",
+        "parameter": "NO2",
+        "aqi": 4,
+        "category": null,
+        "utc_observed": "2026-07-16T01:00",
+        "full_aqsid": "340110007"
+      }
+    }
+  ]
+}

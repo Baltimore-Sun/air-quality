@@ -1,0 +1,35 @@
+name: Update AirNow AQI contours
+
+on:
+  schedule:
+    # Runs at 20 minutes past the hour (UTC) -- offset from the observations
+    # workflow so they don't compete for the same GitHub Actions minute, and
+    # after AirNow's own contour layer has usually refreshed for the hour.
+    - cron: "20 * * * *"
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write # needed so the workflow can commit the updated file
+
+jobs:
+  update-contours:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch and paginate AirNow contours
+        run: node scripts/fetch-airnow-contours.js
+
+      - name: Commit updated GeoJSON if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/airnow-contours-combined.geojson
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update AirNow AQI contours"
+          git push

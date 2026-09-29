@@ -2,10 +2,7 @@ name: Update AirNow AQI contours
 
 on:
   schedule:
-    # Runs at 20 minutes past the hour (UTC) -- offset from the observations
-    # workflow so they don't compete for the same GitHub Actions minute, and
-    # after AirNow's own contour layer has usually refreshed for the hour.
-    - cron: "23 */3 * * *"
+    - cron: ""
   workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
 
 permissions:
